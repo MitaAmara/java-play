@@ -1,0 +1,36 @@
+@*
+ * This template is called from the `index` template. This template
+ * handles the rendering of the page header and body tags. It takes
+ * two arguments, a `String` for the title of the page and an `Html`
+ * object to insert into the body of the page.
+ *@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="@routes.Assets.versioned("stylesheets/style.css")">
+    <title>@title</title>
+</head>
+<body>
+    
+    <ul>
+        <li><a href="@routes.HomeController.index()">Home</a></li>
+        <li><a href="@routes.HomeController.about()">About Us</a></li>
+        <li><a href="@routes.HomeController.products()">Products</a></li>
+    </ul>
+    <hr>
+
+    @* Content goes to here *@
+    <!-- Content area -->
+    @content
+
+    <hr>
+    <div id="footer">
+        <p>Page footer</p>
+    </div>
+
+</body>
+</html>

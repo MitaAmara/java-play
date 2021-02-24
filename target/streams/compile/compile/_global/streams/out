@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0m/home/kt-lap012/Documents/Java Play Project/helloWorld/conf/routes:7:1: ambiguous reference to overloaded definition,[0m
+[0m[[0m[31merror[0m] [0m[0mboth method about in class HomeController of type (): play.mvc.Result[0m
+[0m[[0m[31merror[0m] [0m[0mand  method about in class HomeController of type (): play.mvc.Result[0m
+[0m[[0m[31merror[0m] [0m[0mmatch expected type ?[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /about                      controllers.HomeController.about[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kt-lap012/Documents/Java Play Project/helloWorld/conf/routes:8:1: value products is not a member of controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /products                   controllers.HomeController.products[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
