@@ -34,10 +34,19 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 
 Seq[Any](format.raw/*6.1*/("""
 """),_display_(/*7.2*/main("Home Page")/*7.19*/ {_display_(Seq[Any](format.raw/*7.21*/("""
-    """),format.raw/*8.23*/("""
-    """),format.raw/*9.5*/("""<h1>The Home Page</h1>
-    <h2>"""),_display_(/*10.10*/message),format.raw/*10.17*/("""</h2>
-    <h3>email@mita.com</h3>
+    """),format.raw/*8.5*/("""<!-- this css class is not part of bootstrap but is defined in /css/style.css -->
+    <div class="starter-template">
+        <h1>Bootstrap starter template</h1>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <p> for details see <a href="https://getbootstrap.com/docs/4.0/examples/">https://getbootstrap.com/docs/4.0/examples/</a></p>
+        <h4>To learn more about bootstrap 4 (including how to customise this page) see:</h4>
+        <p><a href="https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp">W3Schools - Get started with Bootstrap 4</a></p>
+        <p><a href="https://www.w3schools.com/bootstrap4/default.asp">W3Schools - Bootstrap 4 Tutorial</a></p>
+        <p><a href="https://www.w3schools.com/bootstrap4/bootstrap_ref_all_classes.asp">W3Schools - Bootstrap 4 Reference</a></p>
+        <h4>For general HTML and CSS see:</h4>
+        <p><a href="https://www.w3schools.com/tags/default.asp">W3Schools - HTML 5</a></p>
+        <p><a href="https://www.w3schools.com/cssref/default.asp">W3Schools - CSS</a></p>
+    </div>
 """)))}))
       }
     }
@@ -54,11 +63,11 @@ Seq[Any](format.raw/*6.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: 2021-02-22T16:19:17.443917
+                  DATE: 2021-02-24T13:38:00.139270
                   SOURCE: /home/kt-lap012/Documents/Java Play Project/helloWorld/app/views/index.scala.html
-                  HASH: b870bb6408869f644993e0c86372913277074e47
-                  MATRIX: 1035->134|1146->152|1173->154|1198->171|1237->173|1269->196|1300->201|1359->233|1387->240
-                  LINES: 30->5|35->6|36->7|36->7|36->7|37->8|38->9|39->10|39->10
+                  HASH: 9138210a6189395c146056e56b3b043ef2219d9a
+                  MATRIX: 1035->134|1146->152|1173->154|1198->171|1237->173|1268->178
+                  LINES: 30->5|35->6|36->7|36->7|36->7|37->8
                   -- GENERATED --
               */
           

@@ -33,9 +33,11 @@ object products extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.H
 
 
 Seq[Any](_display_(/*6.2*/main("Products")/*6.18*/ {_display_(Seq[Any](format.raw/*6.20*/("""
-    """),format.raw/*7.36*/("""
-    """),format.raw/*8.5*/("""<h1>The Products Page</h1>
-    <h3>email@mita.com</h3>
+    """),format.raw/*7.5*/("""<!-- this css class is not part of bootstrap but is defined in /css/style.css -->
+    <div class="starter-template">
+        <h1>My Site - Products</h1>
+        <p class="lead">Details about our products.</p>
+    </div>
 """)))}))
       }
     }
@@ -52,11 +54,11 @@ Seq[Any](_display_(/*6.2*/main("Products")/*6.18*/ {_display_(Seq[Any](format.ra
 
               /*
                   -- GENERATED --
-                  DATE: 2021-02-23T14:24:32.882192
+                  DATE: 2021-02-24T13:38:00.126817
                   SOURCE: /home/kt-lap012/Documents/Java Play Project/helloWorld/app/views/products.scala.html
-                  HASH: c0241618bc7e8f037c3eee4e86388c81ae4383c6
-                  MATRIX: 1120->135|1144->151|1183->153|1215->189|1246->194
-                  LINES: 35->6|35->6|35->6|36->7|37->8
+                  HASH: 702bdee91f8b18a618c8979525581ea33034d100
+                  MATRIX: 1120->135|1144->151|1183->153|1214->158
+                  LINES: 35->6|35->6|35->6|36->7
                   -- GENERATED --
               */
           

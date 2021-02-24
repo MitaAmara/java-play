@@ -33,9 +33,11 @@ object about extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 
 
 Seq[Any](_display_(/*6.2*/main("About Us")/*6.18*/ {_display_(Seq[Any](format.raw/*6.20*/("""
-    """),format.raw/*7.36*/("""
-    """),format.raw/*8.5*/("""<h1>The About Page</h1>
-    <h3>email@mita.com</h3>
+    """),format.raw/*7.5*/("""<!-- this css class is not part of bootstrap but is defined in /css/style.css -->
+    <div class="starter-template">
+        <h1>The About Us Page</h1>
+        <p class="lead">Who are we?</p>
+    </div>
 """)))}))
       }
     }
@@ -52,11 +54,11 @@ Seq[Any](_display_(/*6.2*/main("About Us")/*6.18*/ {_display_(Seq[Any](format.ra
 
               /*
                   -- GENERATED --
-                  DATE: 2021-02-22T16:22:33.296670
+                  DATE: 2021-02-24T13:38:00.116340
                   SOURCE: /home/kt-lap012/Documents/Java Play Project/helloWorld/app/views/about.scala.html
-                  HASH: 63f8895bc69b36d0b4ef985eac3c252b17e4acf5
-                  MATRIX: 1117->135|1141->151|1180->153|1212->189|1243->194
-                  LINES: 35->6|35->6|35->6|36->7|37->8
+                  HASH: 59b180362a0c7b4f7fce0e729e57fb4164500d91
+                  MATRIX: 1117->135|1141->151|1180->153|1211->158
+                  LINES: 35->6|35->6|35->6|36->7
                   -- GENERATED --
               */
           
