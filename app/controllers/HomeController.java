@@ -1,7 +1,7 @@
 package controllers;
 
 import play.mvc.*;
-
+import models.Product;
 import views.html.*;
 
 
@@ -30,7 +30,21 @@ public class HomeController extends Controller {
     }
 
     public Result products() {
+        // Create a new product
+        Product p = new Product();
+
+        // Set the properties for p 
+        p.setId(1L);
+        p.setName("LCD TV");
+        p.setCategory("Home Entertainment");
+        p.setDescription("Sony 55 inch LCD TV");
+        p.setStock(10);
+        p.setPrice(4500000);
+
+        // Create an object and
+        Product p2 = new Product(1L, "LCD TV", "Home", "LG 55 inch OLED TV", 10, 6700000);
+
         return ok(
-            products.render());
+            products.render(p2));
     }
 }
